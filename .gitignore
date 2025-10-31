@@ -1,0 +1,24 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+venv/
+env/
+*.egg-info/
+
+# Data & outputs (raw and processed kept, but ignore large temp files)
+data/interim/*.parquet
+data/interim/*.feather
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
