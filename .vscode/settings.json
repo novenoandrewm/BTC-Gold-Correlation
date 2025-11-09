@@ -1,7 +1,7 @@
 {
   "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
   "jupyter.jupyterServerType": "local",
-  "jupyter.notebookFileRoot": "${workspaceFolder}/notebooks",
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
   "terminal.integrated.env.windows": {
     "PYTHONPATH": "${workspaceFolder}"
 },
