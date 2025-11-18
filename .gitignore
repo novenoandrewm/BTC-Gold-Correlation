@@ -1,24 +1,41 @@
-
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Jupyter checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
 # Environments
 .env
-.venv
+.venv/
 venv/
 env/
 *.egg-info/
+.python-version
 
-# Data & outputs (raw and processed kept, but ignore large temp files)
+# Editors/IDE
+.vscode/
+.idea/
+
+# Test/Lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+coverage.xml
+
+# Data (track raw, interim, processed; ignore heavy temp binaries)
 data/interim/*.parquet
 data/interim/*.feather
-logs/
+data/**/.DS_Store
 
-# OS
+# Logs
+logs/*
+!logs/README.md
+*.log
+
+# OS cruft
 .DS_Store
 Thumbs.db
