@@ -1,0 +1,2 @@
+n_months,pearson_r,pearson_p,fisher_ci_lo,fisher_ci_hi,boot_ci_lo,boot_ci_hi,spearman_rho,spearman_p
+66,-0.068609,0.584116,-0.305568,0.176352,-0.310802,0.195463,-0.052541,0.675229

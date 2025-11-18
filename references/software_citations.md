@@ -1,0 +1,11 @@
+# Software & Libraries (versions pinned in environment/requirements.txt)
+- Python version: 3.13.8
+- pandas
+- numpy
+- matplotlib
+- scipy
+- statsmodels
+- jupyter
+- pyarrow
+- ipykernel
+- tabulate

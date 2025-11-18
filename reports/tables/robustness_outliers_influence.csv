@@ -1,0 +1,2 @@
+pearson_r_original,pearson_r_winsor1pct,delta_winsor,jackknife_min_r,jackknife_max_r,jackknife_min_delta,jackknife_max_delta
+-0.068609,-0.067717,0.000892,-0.106798,-0.02036,-0.038188,0.048249
