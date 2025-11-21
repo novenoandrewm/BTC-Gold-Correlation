@@ -14,7 +14,7 @@ CA1-BTC-Gold-Correlation/
 │  ├─ figures/     # Images exported from notebooks
 │  ├─ tables/      # CSV/LaTeX tables exported from notebooks
 │  └─ files/       # PDF file
-├─ references/     # PDFs, notes, and citation files (e.g., .bib)
+├─ references/     # Notes and citation files (e.g., .bib)
 ├─ environment/    # requirements.txt / environment.yml
 ```
 
