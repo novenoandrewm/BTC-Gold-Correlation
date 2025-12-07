@@ -4,7 +4,7 @@ This repository investigates the statistical relationship between Bitcoin (BTC) 
 
 ## Project Layout
 ```
-CA1-BTC-Gold-Correlation/
+BTC-Gold-Correlation/
 ├─ data/
 │  ├─ raw/         # Original, immutable datasets (never edit these)
 │  ├─ interim/     # Intermediate cleaned/reshaped data
