@@ -3,9 +3,9 @@
 ## Bitcoin hourly OHLCV (raw)
 - **File used**: `data/raw/btc-hourly-price_2015_2025.csv`
 - **Provider**: Mouad Jaouhari (GitHub repository “bitcoin-hourly-ohclv-dataset”).
-- **Description**: Comprehensive Bitcoin hourly price dataset (2015–present) with OHLCV, intended for ML/research. MIT licensed. :contentReference[oaicite:0]{index=0}
+- **Description**: Comprehensive Bitcoin hourly price dataset (2015–present) with OHLCV, intended for ML/research. MIT licensed.
 - **Original frequency**: Hourly (epoch timestamps).
-- **License**: MIT License. :contentReference[oaicite:1]{index=1}
+- **License**: MIT License. 
 - **Transformations applied in this project**:
   - Parsed `TIME_UNIX` to UTC datetimes (auto-detect ms vs s).
   - Deduplicated timestamps (keep last).
@@ -15,9 +15,9 @@
 
 ## Gold monthly prices (raw)
 - **Files used**: `data/raw/gold_monthly_price.csv`, `data/raw/gold_annual_price.csv`
-- **Provider**: DataHub “core/gold-prices”. Data compiled from historical sources (Timothy Green / World Gold Council) and World Bank; updated monthly. :contentReference[oaicite:2]{index=2}
+- **Provider**: DataHub “core/gold-prices”. Data compiled from historical sources (Timothy Green / World Gold Council) and World Bank; updated monthly. 
 - **Original frequency**: Monthly and annual (CSV).
-- **License**: **Public Domain Dedication and License (PDDL)**. :contentReference[oaicite:3]{index=3}
+- **License**: **Public Domain Dedication and License (PDDL)**.
 - **Transformations applied in this project**:
   - Parsed `Date` (YYYY-MM) and numeric `Price`.
   - Normalized to **EOM index**; dropped duplicates/NA.
