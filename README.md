@@ -104,6 +104,3 @@ BTC-Gold-Correlation/
 - NumPy (log, vectorized operations)  
 - SciPy (`pearsonr`, `spearmanr`)  
 - Fisher (1921) — r-to-z CI formula
-
-**GenAI disclosure**  
-Some wording for comments/captions and code-structuring tips were assisted by ChatGPT (model: **GPT-5 Thinking**). All core code was authored/verified by the author and relies on official pandas/NumPy/SciPy APIs.
